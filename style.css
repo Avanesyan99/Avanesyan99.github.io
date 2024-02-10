@@ -3,16 +3,14 @@
     padding: 0;
 }
 body {
-    background: #fafafa; 
+    font-family: 'Love Ya Like A Sister', cursive;
+    background: #fbfbfb; 
     /* #C5DECD */
 }
 button {
     border: none;
 }
 /* https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif */
-.animation {
-    height: 200px;
-}
 .valentine-container {
     display: flex;
     justify-content: center;
@@ -23,7 +21,7 @@ button {
   /* Custom class for Yes button styles */
   #yes-button {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-color: #a7efb8; /* bg-green-500 */
+    background-color: #00ff3c; /* bg-green-500 */
     color: #fff; /* text-white */
     font-weight: bold; /* font-bold */
     padding: 8px 16px; /* py-2 px-4 */
@@ -45,10 +43,12 @@ button {
   }
   
   #no-button:hover {
-    background-color: #c82333; /* hover:bg-red-700 */
+    background-color: #8f1925; /* hover:bg-red-700 */
   }
   /* Custom class for text-4xl my-4 container */
   .text-container {
+    font-family: 'Pacifico', cursive;
+
     font-size: 2.25rem; /* Equivalent to text-4xl in tailwindcss */
     margin-top: 1rem; /* Equivalent to my-4 in tailwindcss */
     margin-bottom: 1rem; /* Equivalent to my-4 in tailwindcss */
